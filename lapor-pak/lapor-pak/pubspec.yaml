@@ -1,0 +1,41 @@
+name: lapor_pak
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=2.19.3 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  firebase_core: 2.9.0
+  firebase_auth: 4.4.0
+  google_fonts: 4.0.3
+  cloud_firestore: 4.5.0
+  curved_navigation_bar: 1.0.3
+  convex_bottom_bar: 3.2.0
+  accordion: 2.5.1
+  geolocator: 9.0.2
+  image_picker: 0.8.7+1
+  cross_file: 0.3.3+4
+  get_storage: 2.1.1
+  fluttertoast: 8.2.1
+  open_route_service: 1.2.2
+  flutter_map: 3.1.0
+  profile: 0.0.1
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/
+    - assets/logo.png
+    - assets/profile.png
+    - assets/diskusi.jpeg
+    - assets/ktp.png
+
+  uses-material-design: true
